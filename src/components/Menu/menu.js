@@ -1,4 +1,5 @@
 import './menu.css'
+import { Link, NavLink, Route, Routes, useRoutes } from 'react-router-dom'
 
 function Menu() {
     return (
@@ -8,10 +9,8 @@ function Menu() {
           </div>
           <div className='menuList'>
              <ul>
-               <a>Главная</a>
-               <a>Конспект</a>
-               <a>История</a>
-               <a>Инструкция</a>
+               <Link to="/"><a>Главная</a></Link>
+               <Link to="/summary"><a>Конспект</a></Link>
              </ul>
           </div>
       </span>

@@ -1,6 +1,6 @@
-import './App.css';
+
 import Menu from './components/Menu/menu'
-import Content from './components/Content/content';
+import Content from './components/Content/home';
 
 function App() {
   return (

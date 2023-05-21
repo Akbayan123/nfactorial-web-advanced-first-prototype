@@ -1,4 +1,4 @@
-img {
+.contentImg {
     width: 500px;
 }
 
@@ -41,7 +41,7 @@ p {
     margin-top: 2px;
 }
 
-button {
+.content-button {
     font-family: Ysabeau;
     width: 220px;
     height: 62px;
